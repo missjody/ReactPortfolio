@@ -1,68 +1,118 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Unit 20 React Homework: React Portfolio
 
-## Available Scripts
+## todos
 
-In the project directory, you can run:
+* Header component -- does it have to be a navbar? or something else
+* Does it have to be set up with a small database of my projects to loop through, or can that simply be a json object? 
 
-### `npm start`
+* Obviously, set up each page and component
+* Set up new favicon
+* Set up a little database with my project links info 
+* Set up manifest? So that it still works while offline? 
+* Double check all projects displayed so that they're in tip top shape, add gifs to them
+* Set up color scheme/styling 
+* Make pages look prettier and less basic bitch
+* Some sort of inspirational message on the footer
+* incorporate greensock so you can start learning about it
+* I like the sleek slow underline of active link from here: https://www.ballsystem.it/en/
+* Update Github
+* Update Linked in with Lindsays suggestions from a while ago
+* Update PDF
+* Submit all of this for Milestone 7
+* Submit this to guy at Ent
+* Mobile first design! Confirm it looks good on cell phone and iPad!!!
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Intro
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
 
-### `npm test`
+If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Requirements
 
-### `npm run build`
+* Updated portfolio featuring 6 total projects
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Use React
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* A `Header` component that appears on multiple pages
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* A single `Project` component that will be used multiple times on a single page 
 
-### `npm run eject`
+* Navigation with React Router, dynamic rendering, or another third part router
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* A `Footer` component that appears on multiple pages
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Update GitHub profile with pinned repositories featuring those same projects
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Grading
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+| Requirement    | Weight |
+| -------------- | ------ |
+| Portoflio      | 90%    |
+| GitHub Profile | 10%    |
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Instructions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  - [Updated Portfolio](#updated-portfolio)
+    - [Design](#design)
+  - [React](#react)
+  - [Updated LinkedIn Profile](#updated-linkedin-profile)
 
-### Code Splitting
+### Updated Portfolio
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Your updated site should still have all of the content it previously had:
 
-### Analyzing the Bundle Size
+* Your name
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
 
-### Making a Progressive Web App
+* A link to a PDF of your resume with updated projects
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+* A list of projects. For each project, make sure you have the following:
 
-### Advanced Configuration
+  * Project title
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+  * Link to the deployed version
 
-### Deployment
+  * Link to the GitHub repository
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+  * GIF or screenshot of the deployed application
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+#### Design
+
+As with the previous portfolio homework, "good" design is subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
+
+* Mobile-first design
+
+* Choose a color palette for your site so it doesn't just look like
+the default bootstrap theme or an unstyled HTML site. You may we
+
+* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
+
+* If you want to go above and beyond, try using animations and react component libraries. Note 
+that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
+
+### React
+
+Additionally, this new portfolio should be created using React.
+
+At a minimum, your portfolio should include the following:
+
+* A `Header` component that appears on multiple pages
+
+* A single `Project` component that will be used multiple times on a single page 
+
+* Navigation with React Router, dynamic rendering, or another third part router
+
+* A `Footer` component that appears on multiple pages
+
+
+### Updated LinkedIn Profile 
+
+Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
+
+- - -
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

@@ -1,0 +1,1 @@
+// Single component used multiple times on the same page

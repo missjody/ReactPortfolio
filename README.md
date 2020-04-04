@@ -3,12 +3,11 @@
 ## todos
 
 * Header component -- does it have to be a navbar? or something else
-* Does it have to be set up with a small database of my projects to loop through, or can that simply be a json object? 
 
 * Obviously, set up each page and component
 * Set up new favicon
 * Set up a little database with my project links info 
-* Set up manifest? So that it still works while offline? 
+* Set up manifest? So that it still works while offline? INclude favicon and index.html 
 * Double check all projects displayed so that they're in tip top shape, add gifs to them
 * Set up color scheme/styling 
 * Make pages look prettier and less basic bitch

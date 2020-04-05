@@ -8,7 +8,5 @@ Current issues are that upon deployement two of the project images do not displa
 
 For future development I would like to get the database working, as well as add animation to the elements on the pages.
 
-## Updates
 
-* 4/5/20 4:10PM Resolved Heroku image linking issues by updating lines from .jpg to .JPG to match file naming.
 

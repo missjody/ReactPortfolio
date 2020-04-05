@@ -2,7 +2,7 @@
 import React from "react";
 
 const footerStyle = {
-  backgroundColor: "purple",
+  backgroundColor: "#2D303F",
   fontSize: "20px",
   color: "white",
   borderTop: "1px solid #E7E7E7",

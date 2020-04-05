@@ -2,20 +2,30 @@
 
 ## todos
 
-* Header component -- does it have to be a navbar? or something else
-
-* Obviously, set up each page and component
+  * /home
+    * Animated photos for headshot and working at the computer
+    * Some sort of inspirational message on the footer
+  * /projects
+    * add sixth project
+    * add an animation to the element on load
+  * /contact
+    * LinkedIn
+    * GitHub
+    * Resume
+    * Phone Number
+    * Email Address
+  * /404
+    * Design something cute
 * Set up new favicon
-* Set up a little database with my project links info 
-* Set up manifest? So that it still works while offline? INclude favicon and index.html 
-* Double check all projects displayed so that they're in tip top shape, add gifs to them
-* Set up color scheme/styling 
-* Make pages look prettier and less basic bitch
-* Some sort of inspirational message on the footer
-* incorporate greensock so you can start learning about it
+* Set up manifest? So that it still works while offline? INclude favicon and index.html
+* GitHub 
+  * Double check all projects displayed so that they're in tip top shape, add gifs to them?
+  * Clean up comments
+  * Update pinned repos
+  * Update links to new portfolio
 * I like the sleek slow underline of active link from here: https://www.ballsystem.it/en/
-* Update Github
-* Update Linked in with Lindsays suggestions from a while ago
+* Update LinkedIn
+  * with Lindsays suggestions from a while ago
 * Update PDF
 * Submit all of this for Milestone 7
 * Submit this to guy at Ent

@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Contact from "./components/pages/Contact";
-import Home from "./components/pages/Home";
-import Oops from "./components/pages/Oops";
-import Projects from "./components/pages/Projects";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Oops from "./pages/Oops";
+import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import './App.css';

@@ -2,13 +2,13 @@ import React from "react";
 
 
 const Project = () => {
-  const projectsArr = [
 
+  const projectsArr = [
     {
       title: "Burger Munch",
       linkDeployed: "https://blooming-eyrie-50875.herokuapp.com/",
       linkGithub: "https://github.com/missjody/Burger_Munch",
-      imgSrc: "./images/burgerMunch.jpg",
+      imgSrc: "./images/burger.jpg",
       description: "This full stack application allows the user to make a wishlist of burgers to munch, while also storing a list of burgers previously munched."
     },
     {
@@ -22,7 +22,7 @@ const Project = () => {
       title: "Employee Profile",
       linkDeployed: "https://github.com/missjody/Developer-Profile-Generator",
       linkGithub: "https://github.com/missjody/Developer-Profile-Generator",
-      imgSrc: "./images/profilegen.jpg",
+      imgSrc: "./images/profilegen.png",
       description: "Using a NodeJS interface, this application creates a PDF from the information provided by the user's profile on GitHub."
     },
     {

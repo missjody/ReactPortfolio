@@ -2,14 +2,9 @@
 
 ## todos
 
-  * /home
-    * Some sort of inspirational message on the footer
   * /projects
     * add sixth project
-  * /contact
-    * Resume
-* Set up new favicon
-* Set up manifest? So that it still works while offline? INclude favicon and index.html
+ * Set up manifest? So that it still works while offline? INclude favicon and index.html
 * GitHub 
   * Double check all projects displayed so that they're in tip top shape, add gifs to them?
   * Clean up comments

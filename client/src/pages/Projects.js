@@ -54,6 +54,13 @@ const Projects = () => {
       linkGithub: "https://github.com/kacox1251/Streamer",
       imgSrc: "./images/streamer.png",
       description: "Our team created a password protected connection to a database that stored movies and tv shows are on their watch list."
+    },
+    {
+      title: "Employee Directory",
+      linkDeployed: "https://damp-cliffs-93023.herokuapp.com/",
+      linkGithub: "https://github.com/missjody/employeedirectory",
+      imgSrc: "./images/empDir.jpg",
+      description: "React based searchable directory with faked employee list created from api call."
     }
   ]
 

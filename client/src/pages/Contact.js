@@ -18,7 +18,7 @@ const Contact = () => {
           <div className="collection">
             <a href="https://github.com/missjody" className="collection-item">GitHub</a>
             <a href="https://www.linkedin.com/in/missjodyrussell/" className="collection-item ">LinkedIn</a>
-            {/* <a href="#!" className="collection-item">Resume</a> */}
+            <a href="./files/Bootcamp Resume.pdf" className="collection-item">Resume</a>
             <a href="mailto:missjodyrussell@gmail.com?Subject=Hellow%Again!" className="collection-item">Email Me</a>
             <a className="collection-item">Or call: 405 780 4121</a>
           </div>

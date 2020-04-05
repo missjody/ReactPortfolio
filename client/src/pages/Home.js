@@ -14,7 +14,7 @@ const Home = () => {
           </div>
 
           <div className="col s12 m8">
-            <h4 id="darkOrange">about me</h4>
+            <h4 id="darkOrange">about jody</h4>
             <p className="left-align light"> I've finally found a way to bring together my background in both programming and
             my passion for visual art by attending the University of Denver's Coding Bootcamp. This journey has taught me the skills needed to be a MERN stack developer.
             In the future, at my ideal company, I will work closely with other creatives, assisting with bringing their creative to life while I continue to grow my skills

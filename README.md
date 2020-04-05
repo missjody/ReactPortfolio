@@ -3,19 +3,11 @@
 ## todos
 
   * /home
-    * Animated photos for headshot and working at the computer
     * Some sort of inspirational message on the footer
   * /projects
     * add sixth project
-    * add an animation to the element on load
   * /contact
-    * LinkedIn
-    * GitHub
     * Resume
-    * Phone Number
-    * Email Address
-  * /404
-    * Design something cute
 * Set up new favicon
 * Set up manifest? So that it still works while offline? INclude favicon and index.html
 * GitHub 
@@ -23,7 +15,6 @@
   * Clean up comments
   * Update pinned repos
   * Update links to new portfolio
-* I like the sleek slow underline of active link from here: https://www.ballsystem.it/en/
 * Update LinkedIn
   * with Lindsays suggestions from a while ago
 * Update PDF

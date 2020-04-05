@@ -1,8 +1,6 @@
 import React from "react"; //, { useState, useEffect } 
-// import Project from "../components/Project/Project";
 // import API from "../utils/API";
-// import { Col, Row, Container } from "../components/Grid/Grid";
-// something like this for the Project file import { List, ListItem } from "../components/List";
+
 
 const Projects = () => {
   // const [projects, setProjects] = useState([]);
@@ -59,7 +57,7 @@ const Projects = () => {
     }
   ]
 
-  console.log("Projects ", projects)
+  // console.log("Projects ", projects)
 
 
   return (
@@ -72,7 +70,7 @@ const Projects = () => {
       </div>
 
       <div className="row">
-        {/* <div className="col s12 m7"> */}
+
         {projects.map(project => (
           <div className="col m6" key={project.title} >
             <div className="card">

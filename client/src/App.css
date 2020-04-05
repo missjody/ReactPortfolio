@@ -1,3 +1,13 @@
+.card {
+	height: 50%
+}
+
+.collection a.collection-item {
+color: #2D303F;
+background-color: #FF6B35;
+font-family: 'Heebo', sans-serif;
+
+}
 .App {
   text-align: center;
 }

@@ -1,6 +1,6 @@
 # Unit 20 React Homework: React Portfolio
 
-[Deployed Site](https://peaceful-tundra-86754.herokuapp.com);
+[Deployed Site](https://peaceful-tundra-86754.herokuapp.com)
 
 For the latest version of my portfolio I used a react and materialize to create a mobile-first application to display my completed projects and links to GitHub, LinkedIn, and my resume. 
 

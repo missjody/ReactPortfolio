@@ -4,7 +4,7 @@ export const projectsArr = [
     title: "Burger Munch",
     linkDeployed: "https://blooming-eyrie-50875.herokuapp.com/",
     linkGithub: "https://github.com/missjody/Burger_Munch",
-    imgSrc: "./images/burgerMunch.jpg",
+    imgSrc: "./images/burgerMunch.JPG",
     description: "This full stack application allows the user to make a wishlist of burgers to munch, while also storing a list of burgers previously munched."
   },
   {
@@ -18,7 +18,7 @@ export const projectsArr = [
     title: "Employee Profile",
     linkDeployed: "https://github.com/missjody/Developer-Profile-Generator",
     linkGithub: "https://github.com/missjody/Developer-Profile-Generator",
-    imgSrc: "./images/profilegen.jpg",
+    imgSrc: "./images/profilegen.JPG",
     description: "Using a NodeJS interface, this application creates a PDF from the information provided by the user's profile on GitHub."
   },
   {

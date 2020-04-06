@@ -8,5 +8,8 @@ Current issues are that upon deployement two of the project images do not displa
 
 For future development I would like to get the database working, as well as add animation to the elements on the pages.
 
+## Updates
+
+4/6/2020 Missing images finally pushed to heroku and displaying correctly
 
 

@@ -7,46 +7,37 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/reactportfolio"
 
 const projectsSeed = [
 
-  // ADD ANOTHER PROJECT
-
   {
-    title: "Burger Munch",
-    linkDeployed: "https://blooming-eyrie-50875.herokuapp.com/",
-    linkGithub: "https://github.com/missjody/Burger_Munch",
-    imgSrc: "./images/burgerMunch.jpg",
-    description: "This full stack application allows the user to make a wishlist of burgers to munch, while also storing a list of burgers previously munched."
+    title: "Employee Directory",
+    linkDeployed: "https://damp-cliffs-93023.herokuapp.com/",
+    linkGithub: "https://github.com/missjody/employeedirectory",
+    imgSrc: "./images/streamer.png",
+    description: "Upon application load it fakes an employee directory by importing a list of people from randomuser.me api. Once on the page, the user is able to search by first name, last name, or email address to find the employee they're looking for, using state and filter."
   },
   {
-    title: "Dessert Search",
-    linkDeployed: "https://hmbudzinski.github.io/OfficialProjectOne/",
-    linkGithub: "https://github.com/hmbudzinski/OfficialProjectOne",
-    imgSrc: "./images/dessert.jpg",
-    description: "For our first group project we were asked to come together as a team to solve a real world problem using data from multiple server-side API requests."
+    title: "Surată",
+    linkDeployed: "https://surata-app.herokuapp.com/",
+    linkGithub: "https://github.com/Inbary-s/productivity-app",
+    imgSrc: "./images/surata.jpg",
+    description: "React password protected productivity application, including the ability to set up goals and sub tasks, a Pomodoro timer, and a meditation page. To check out, use Portfolio for the username and Password1 for the password."
   },
   {
-    title: "Employee Profile Generator",
-    linkGithub: "https://github.com/missjody/Developer-Profile-Generator",
-    imgSrc: "./images/profilegen.jpg",
-    description: "Using a NodeJS interface to create a PDF of the information provided from user's information on GitHub."
-  },
-  {
-    title: "Password Generator",
-    linkDeployed: "https://missjody.github.io/Random-Password-Generator/",
-    linkGithub: "https://github.com/missjody/Random-Password-Generator",
-    imgSrc: "./images/pwGen.jpg",
-    description: ""
+    title: "Template Engine",
+    linkGithub: "https://github.com/missjody/Template_Engine_-_Employee_Summary",
+    imgSrc: "./images/programgifsmol.gif",
+    description: "React password protected productivity application, including the ability to set up goals and sub tasks, a Pomodoro timer, and a meditation page. To check it out, use Portfolio for the username and Password1 for the password."
   },
   {
     title: "Streamer",
     linkDeployed: "https://infinite-cliffs-65236.herokuapp.com/",
     linkGithub: "https://github.com/kacox1251/Streamer",
     imgSrc: "./images/streamer.jpg",
-    description: "For our second group project we created a password protected connection for a database that stored what movies and tv shows are on your watch list."
+    description: "For our second group project we created a password protected connection for a database that stored what movies and tv shows are on your watch list. To check it out, use missjodyrussell@gmail.com for the username and Password1 for the password"
   },
 ];
 
-db.Projects.remove({})
-  .then(() => db.Projects.collection.insertMany(projectsSeed))
+db.Project.remove({})
+  .then(() => db.Project.collection.insertMany(projectsSeed))
   .then(data => {
     console.log(data.result.n + " records inserted!");
     process.exit(0);

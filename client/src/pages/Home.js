@@ -9,7 +9,7 @@ const Home = () => {
         <div className="row">
           <div className="col s12 m4">
             <img src="./images/me.jpg"
-              alt="miss jody profile image, wearing a gold sweater"
+              alt="miss jody headshot, wearing a gold sweater"
               className="circle responsive-img" id="profileImg" />
           </div>
 

@@ -14,7 +14,8 @@ class Nav extends Component {
       <div>
         <nav>
           <div className="nav-wrapper">
-            <a href="#" data-target="slide-out" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></a>
+            {/* changed to span from a with an href="#" */}
+            <span data-target="slide-out" className="js-trigger sidenav-trigger show-on-large"><i className="material-icons">menu</i></span>
             <ul className="right hide-on-med-and-down">
               <li><a href="/home"><h5> Go Back</h5></a></li>
               <li><a href="/projects"><h5>Projects</h5></a></li>

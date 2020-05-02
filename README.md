@@ -11,5 +11,6 @@ For future development I would like to get the database working, as well as add 
 ## Updates
 
 4/6/2020 Missing images finally pushed to heroku and displaying correctly
+5/2/2020 Updated so that projects pull from database rather than an array
 
 

@@ -33,6 +33,7 @@ const Project = () => {
     },
   ];
 
+  console.log("Projects", projectsArr)
 
   return (
 

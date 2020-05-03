@@ -10,13 +10,14 @@ For future development I would like to get the database working, as well as add 
 
 ## Updates
 
-4/6/2020 Missing images finally pushed to heroku and displaying correctly
-5/2/2020 Created concepts for color scheme change and home page redesign
+* 4/6/2020 Missing images finally pushed to heroku and displaying correctly
+
+* 5/2/2020 Created concepts for color scheme change and home page redesign
 
 ![concept one](./client/public/images/concept1.jpg)
 ![concept two](./client/public/images/concept2.jpg)
 ![concept three](./client/public/images/concept3.jpg)
 
-5/3/2020 Updated color scheme, home page design, and projects listed
+* 5/3/2020 Updated color scheme, home page design, and projects listed
 
 

@@ -15,7 +15,7 @@ const Project = () => {
       title: "Surată",
       linkDeployed: "https://surata-app.herokuapp.com/",
       linkGithub: "https://github.com/missjody/productivity-app",
-      imgSrc: "./images/surata.jpg",
+      imgSrc: "./images/surata1.jpg",
       description: "React password protected productivity application, including the ability to set up goals and sub tasks, a Pomodoro timer, and a meditation page. To check out, use Portfolio for the username and Password1 for the password. I created the color scheme for the page, as well as completely designing the meditation page using GSAP and React-Sound."
     },
     {

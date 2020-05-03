@@ -18,6 +18,6 @@ For future development I would like to get the database working, as well as add 
 ![concept two](./client/public/images/concept2.jpg)
 ![concept three](./client/public/images/concept3.jpg)
 
-* 5/3/2020 Updated color scheme, home page design, and projects listed
+* 5/3/2020 Updated color scheme, home page design, and projects listed; updated resume file
 
 

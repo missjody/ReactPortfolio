@@ -1,17 +1,89 @@
+/* wave attempt one */
+html {
+  box-sizing: border-box;
+}
+*,*::before,*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+.wave-container {
+  background: #5DD39E;
+}
+.wave-container > svg {
+  display: block;
+}
+
+/* ------------------------ */
+
+#mern{
+  background-color: #BCE784;
+  margin-top: -15.5rem;
+  padding-top: 15rem;
+}
+
+#mernFont {
+  color: #525174;
+}
+
+#grad {
+  background-color: #348AA7;
+  margin-top: -15.5rem;
+  padding-top: 11rem;
+}
+
+body {
+  background-color: #5DD39E;
+}
 .card {
 	height: 50%
 }
 
+#imgContainer {
+  position: relative;
+  z-index: 0;
+  top: -10rem;
+  left: 30rem;
+}
+
+#profileImg {
+  border-radius: 2rem;
+  height: auto;
+  width: 50%;
+}
+
+#hello {
+  margin-top: 6rem;
+}
+
+#myNameIs {
+  margin-top: -2.5rem;
+  line-height: 0%;
+}
+
+.col {
+  z-index: 1;
+}
+
+#name {
+  margin-top: 0rem;
+  line-height: 0%;
+  color: #BCE784;
+  position: absolute;
+  z-index: 1;
+}
+
 .collection a.collection-item {
-color: #2D303F;
-background-color: #FF6B35;
+color: #513B56;
+background-color: #BCE784;
 font-family: 'IM Fell DW Pica', serif;
 }
 
-.container {
+/* .container {
   display: flex;
-  /* flex-wrap: wrap; */
-}
+  flex-wrap: wrap;
+} */
 
 .App {
   text-align: center;
@@ -19,24 +91,24 @@ font-family: 'IM Fell DW Pica', serif;
 
 h1, h2, h3, h4, h5, p {
   font-family: 'IM Fell DW Pica', serif;
-  color: #F7C59F;
+  color: #FFFFFF;
 }
 
 p {
   font-family: 'IM Fell DW Pica', serif;
-  color: #4C516B;
+  color: #348AA7;
 }
 
 #darkOrange {
-  color: #FF6B35;
+  color: #BCE784;
 }
 
 #darkBlack {
-  color: #2D303F;
+  color: #513B56;
 }
 
 .sidenav {
-  background-color: #4C516B;
+  background-color: #513B56;
 }
 
 img.responsive-img {
@@ -54,7 +126,7 @@ img.responsive-img {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #BCE784;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -65,20 +137,26 @@ img.responsive-img {
 }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .project-image {
   height: 50%
 }
 
 nav .nav-wrapper {
-  background: #2D303F;
+  background: #513B56;
 }
-    
+
+@media screen and (max-width: 768px) {
+  #imgContainer {
+    right: 0rem;
+    left: 24rem;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  #imgContainer {
+    right: 0rem;
+    left: 5rem;
+    top: 1rem;
+  }
+}

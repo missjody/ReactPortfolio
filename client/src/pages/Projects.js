@@ -1,26 +1,8 @@
-import React from "react"; //, { useState, useEffect } 
-// import API from "../utils/API";
+import React from "react";
 import Project from "../components/Project/Project"
 
 
 const Projects = () => {
-  // const [projects, setProjects] = useState([]);
-
-  // // on page load call loadProjects
-  // useEffect(() => {
-  //   loadProjects()
-  // }, []);
-
-  // // load up all the projects
-  // const loadProjects = () => {
-  //   API.getProjects()
-  //     .then(results =>
-  //       setProjects(results.data)
-  //     ).catch(err => console.log(err))
-  // };
-
-  // console.log("Projects ", projects)
-
 
   return (
     <div className="container fluid">

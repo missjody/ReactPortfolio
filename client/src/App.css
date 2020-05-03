@@ -110,7 +110,8 @@ body {
 .collection a.collection-item {
 color: #513B56;
 background-color: #BCE784;
-font-family: 'IM Fell DW Pica', serif;
+font-family: 'Dosis', sans-serif;
+font-size: x-large;
 }
 
 /* .container {
@@ -142,7 +143,13 @@ p {
 }
 
 #darkOrange {
-  color: #BCE784;
+  color: #525174;
+  font-size: xxx-large;
+}
+
+.contact-font {
+  color: #525174;
+  font-size: x-large;
 }
 
 #darkBlack {
@@ -159,6 +166,10 @@ img.responsive-img {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.project-font {
+  font-family: 'Dosis', sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {

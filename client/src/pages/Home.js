@@ -10,7 +10,7 @@ const Home = () => {
       <div className="wave-container">
 
         <div className="row">
-          <div className="col s12 m4 push-m1 push-l2 push-xl3">
+          <div className="col s12 m4 push-m1 push-l2 push-xl2">
             <h1 id="hello">Hello</h1>
           </div>
         </div>
@@ -22,7 +22,7 @@ const Home = () => {
         </div>
 
         <div className="row">
-          <div className="col s12 m6 push-m3 push-l4  push-xl3">
+          <div className="col s12 m6 push-m3 push-l4  push-xl4">
             <h1 id="name">Jody Russell</h1>
           </div>
         </div>

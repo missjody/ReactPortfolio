@@ -1,25 +1,26 @@
-import React, { useState, useEffect } from "react";
-import API from "../utils/API";
+import React from "react"; //, { useState, useEffect } 
+// import API from "../utils/API";
 import Project from "../components/Project/Project"
 
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
+  // const [projects, setProjects] = useState([]);
 
-  // on page load call loadProjects
-  useEffect(() => {
-    loadProjects()
-  }, []);
+  // // on page load call loadProjects
+  // useEffect(() => {
+  //   loadProjects()
+  // }, []);
 
-  // load up all the projects
-  const loadProjects = () => {
-    API.getProjects()
-      .then(results =>
-        setProjects(results.data)
-      ).catch(err => console.log(err))
-  };
+  // // load up all the projects
+  // const loadProjects = () => {
+  //   API.getProjects()
+  //     .then(results =>
+  //       setProjects(results.data)
+  //     ).catch(err => console.log(err))
+  // };
 
-  console.log("Projects", projects)
+  // console.log("Projects ", projects)
+
 
   return (
     <div className="container fluid">
@@ -32,7 +33,7 @@ const Projects = () => {
 
       <div className="row">
 
-        <Project projects={projects} />
+        <Project />
 
       </div>
     </div>

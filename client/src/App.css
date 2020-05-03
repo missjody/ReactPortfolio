@@ -47,16 +47,17 @@ body {
   background-color: #525174;
 }
 
+#thanks {
+  margin-top: -15.5rem;
+  padding-top: 15rem;
+}
+
 #courseFont {
   color: #BCE784;
   padding-left: 8rem;
   padding-right: 8rem;
 }
 
-#thanks {
-  margin-top: -15.5rem;
-  padding-top: 15rem;
-}
 
 #thanksFont {
   padding-left: 8rem;
@@ -188,6 +189,10 @@ nav .nav-wrapper  {
 }
 
 @media screen and (max-width: 2560px) {
+
+  #imgContainer {
+    left: 40rem;
+  }
     
   #mern{
     background-color: #BCE784;
@@ -213,6 +218,33 @@ nav .nav-wrapper  {
   }
 
 }
+
+@media screen and (max-width: 1920px) {
+
+  #mern{
+    background-color: #BCE784;
+    margin-top: -28rem;
+    padding-top: 28rem;
+  }
+  
+  #grad {
+    background-color: #348AA7;
+    margin-top: -24rem;
+    padding-top: 18rem;
+  }
+  
+  #course {
+    margin-top: -25rem;
+    padding-top: 18rem ;
+    background-color: #525174;
+  }
+  
+  #thanks {
+    margin-top: -25rem;
+    padding-top: 25rem;
+  }
+  
+  }
 
 @media screen and (max-width: 1628px) {
 
@@ -248,12 +280,13 @@ nav .nav-wrapper  {
   @media screen and (max-width: 1440px) {
 
     #imgContainer {
-      left: 30rem;
+      left: 23rem;
+      top: -12rem;
     }
     
     #mern{
       background-color: #BCE784;
-      margin-top: -21.3rem;
+      margin-top: -21rem;
       padding-top: 23rem;
     }
     
@@ -275,6 +308,38 @@ nav .nav-wrapper  {
     }
     
     }
+
+    @media screen and (max-width: 1280px) {
+
+      #imgContainer {
+        left: 18rem;
+        top: -11rem;
+      }
+      
+      #mern{
+        background-color: #BCE784;
+        margin-top: -18.7rem;
+        padding-top: 23rem;
+      }
+      
+      #grad {
+        background-color: #348AA7;
+        margin-top: -20rem;
+        padding-top: 18rem;
+      }
+      
+      #course {
+        margin-top: -20rem;
+        padding-top: 15rem ;
+        background-color: #525174;
+      }
+      
+      #thanks {
+        margin-top: -20rem;
+        padding-top: 22rem;
+      }
+      
+      }
 
     @media screen and (max-width: 1024px) {
       
@@ -331,7 +396,13 @@ nav .nav-wrapper  {
     margin-top: -12.1rem;
     padding-top: 17rem;
   }
+  #mernFont, #gradFont, #courseFont, #thanksFont {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2em; 
+  }
 }
+
 
 
 @media screen and (max-width: 425px) {
@@ -343,24 +414,83 @@ nav .nav-wrapper  {
 
   #mern{
     background-color: #BCE784;
-    margin-top: -6.7rem;
+    margin-top: -6.5rem;
     padding-top: 10rem;
   }
+
+  #mernFont {
+    color: #525174;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2em;
+  }
+
+  #courseFont {
+    color: #BCE784;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2em;
+  }
+  
+  
+  #thanksFont {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    padding-bottom: 5rem;
+    color: #513b56; 
+  }
+  
   
   #grad {
     background-color: #348AA7;
-    margin-top: -8rem;
+    margin-top: -7rem;
     padding-top: 9rem;
+  }
+
+  #gradFont {
+    color: #5DD39E;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2em;
   }
   
   #course {
-    margin-top: -8rem;
+    margin-top: -7rem;
     padding-top: 8rem ;
     background-color: #525174;
   }
   
   #thanks {
-    margin-top: -8rem;
+    margin-top: -7rem;
     padding-top: 8rem;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+
+
+  #mern{
+    background-color: #BCE784;
+    margin-top: -5rem;
+    padding-top: 5rem;
+  }
+  
+  #grad {
+    background-color: #348AA7;
+    margin-top: -6rem;
+    padding-top: 3rem;
+  }
+
+  #course {
+    margin-top: -6rem;
+    padding-top: 3rem ;
+    background-color: #525174;
+  }
+  
+  #thanks {
+    margin-top: -6rem;
+    padding-top: 3rem;
   }
 }

@@ -9,12 +9,10 @@ const Nav = () => {
 
   useEffect(() => {
     let sidenav = slide;
-    console.log("SLIDE ", sidenav)
     M.Sidenav.init(sidenav, {});
   })
 
   const handleClick = () => {
-    console.log("CLICK")
     let sidenav = slide;
     var instance = M.Sidenav.getInstance(sidenav);
     instance.close();

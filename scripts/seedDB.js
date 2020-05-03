@@ -11,7 +11,7 @@ const projectsSeed = [
     title: "Employee Directory",
     linkDeployed: "https://damp-cliffs-93023.herokuapp.com/",
     linkGithub: "https://github.com/missjody/employeedirectory",
-    imgSrc: "./images/streamer.png",
+    imgSrc: "./images/empDir.jpg",
     description: "Upon application load it fakes an employee directory by importing a list of people from randomuser.me api. Once on the page, the user is able to search by first name, last name, or email address to find the employee they're looking for, using state and filter."
   },
   {

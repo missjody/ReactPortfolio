@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Oops from "./pages/Oops";
 import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import './App.css';
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
             <Oops />
           </Route>
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

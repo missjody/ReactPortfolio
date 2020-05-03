@@ -19,6 +19,8 @@ const Projects = () => {
       ).catch(err => console.log(err))
   };
 
+  console.log("Projects", projects)
+
   return (
     <div className="container fluid">
 

@@ -1,52 +1,27 @@
 import React from "react";
 
 const Home = () => {
+
+
   return (
-
-    // <div className="container">
-    //   <div className="section">
-
-    //     <div className="row">
-    //       <div className="col s12 m4">
-    //         <img src="./images/me.jpg"
-    //           alt="miss jody headshot, wearing a gold sweater"
-    //           className="circle responsive-img" id="profileImg" />
-    //       </div>
-
-    //       <div className="col s12 m8">
-    //         <h4 id="darkOrange">about jody</h4>
-    //         <p className="left-align light"> I've finally found a way to bring together my background in both programming and
-    //         my passion for visual art by attending the University of Denver's Coding Bootcamp. This journey has taught me the skills needed to be a MERN stack developer.
-    //         In the future, at my ideal company, I will work closely with other creatives, assisting with bringing their creative to life while I continue to grow my skills
-    //         as a developer and artist.
-    //       </p>
-    //         <p> The degree I recieved from Oklahoma State University in 2012 was for a Bachelor of Fine Arts with a focus in Watercolor. I have found being right brained and having
-    //         this creative backround helps me work well with other developers, giving a think-outside-the-box approach to whatever issue the team is tackling. With over fifteen years
-    //         of customer service experience I also find that my excellent written and oral communication skills are important soft skills to bring to the table.
-    //         </p>
-    //       </div>
-    //     </div>
-
-    //   </div>
-    // </div>
 
     <div>
       <div className="wave-container">
 
         <div className="row">
-          <div className="col s12 m4">
+          <div className="col s12 m4 push-m1 push-l2 push-xl3">
             <h1 id="hello">Hello</h1>
           </div>
         </div>
 
         <div className="row">
-          <div className="col s12 m6 push-m1">
+          <div className="col s12 m6 push-m2 push-l3 push-xl3">
             <h1 id="myNameIs">my name is</h1>
           </div>
         </div>
 
         <div className="row">
-          <div className="col s12 m6 push-m3">
+          <div className="col s12 m6 push-m3 push-l4  push-xl3">
             <h1 id="name">Jody Russell</h1>
           </div>
         </div>
@@ -57,8 +32,6 @@ const Home = () => {
             id="profileImg" />
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5DD39E" fill-opacity="1" d="M0,0L48,53.3C96,107,192,213,288,256C384,299,480,277,576,234.7C672,192,768,128,864,138.7C960,149,1056,235,1152,256C1248,277,1344,235,1392,213.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-
-
       </div>
 
 
@@ -66,7 +39,7 @@ const Home = () => {
         <div className="col s12 center-align">
           <h2 id="mernFont">I am a Web Developer with both front-end and
           back-end experience working with the MERN stack.
-          I also have an extensive background in both
+          <br />I also have an extensive background in both <br />
           customer service and consumer lending.
           </h2>
         </div>
@@ -75,31 +48,32 @@ const Home = () => {
 
       <div className="wave-container row" id="grad">
         <div className="col s12 center-align">
-          <h2>April 2020 I graduated from the University of Denver’s
+          <h2 id="gradFont">April 2020 I graduated from the University of Denver’s
           Full Stack program, which covered HTML, CSS, JS, and React.
           I also learned how to set up databases and servers to connect
-          to front-end, such as MongoDB, Mongoose, and Express.
-          Outside of class I explored technologies including Adobe Xd,
+          to front-end, including MongoDB, Mongoose, and Express.
+          Outside of class I explored additional technologies: Adobe Xd,
           Green Sock animation, Materialize CSS, Sass and ChartJS.
          </h2>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#348AA7" fill-opacity="1" d="M0,256L30,213.3C60,171,120,85,180,74.7C240,64,300,128,360,170.7C420,213,480,235,540,229.3C600,224,660,192,720,197.3C780,203,840,245,900,266.7C960,288,1020,288,1080,282.7C1140,277,1200,267,1260,218.7C1320,171,1380,85,1410,42.7L1440,0L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#348AA7" fill-opacity="1" d="M0,288L48,256C96,224,192,160,288,122.7C384,85,480,75,576,74.7C672,75,768,85,864,101.3C960,117,1056,139,1152,149.3C1248,160,1344,160,1392,160L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
       </div>
 
       <div className="wave-container row" id="course">
         <div className="col s12 center-align">
-          <h2>During the course of the program my classmates and I
+          <h2 id="courseFont">During the course of the program my classmates and I
           would work on teams of three to four to create a series
           of projects both together and individually. While we started
           in a classroom setting we would later move to remote,
           giving me experience working on teams in both environments.
         </h2>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#525174" fill-opacity="1" d="M0,288L48,282.7C96,277,192,267,288,229.3C384,192,480,128,576,122.7C672,117,768,171,864,186.7C960,203,1056,181,1152,192C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
       </div>
 
       <div className="wave-container row" id="thanks">
         <div className="col s12 center-align">
-          <h2>
+          <h2 id="thanksFont">
             Thank you for taking the time to check out my portfolio.
             I've included some of my favorite projects as well as links
             to my resume and how to contact me.

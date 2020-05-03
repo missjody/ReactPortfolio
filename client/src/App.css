@@ -19,18 +19,50 @@ body {
 
 #mern{
   background-color: #BCE784;
-  margin-top: -15.5rem;
-  padding-top: 15rem;
+  margin-top: -22.5rem;
+  padding-top: 25rem;
 }
 
 #mernFont {
   color: #525174;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 #grad {
   background-color: #348AA7;
+  margin-top: -20rem;
+  padding-top: 15rem;
+}
+
+#gradFont {
+  color: #5DD39E;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+#course {
+  margin-top: -20rem;
+  padding-top: 15rem ;
+  background-color: #525174;
+}
+
+#courseFont {
+  color: #BCE784;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+#thanks {
   margin-top: -15.5rem;
-  padding-top: 11rem;
+  padding-top: 15rem;
+}
+
+#thanksFont {
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 5rem;
+  color: #513b56; 
 }
 
 body {
@@ -89,9 +121,18 @@ font-family: 'IM Fell DW Pica', serif;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, p {
   font-family: 'IM Fell DW Pica', serif;
   color: #FFFFFF;
+}
+
+h5 {
+  font-family: 'IM Fell DW Pica', serif;
+  color: #BCE784;
+}
+
+i.hamburger {
+  color: #bce784;
 }
 
 p {
@@ -141,14 +182,154 @@ img.responsive-img {
   height: 50%
 }
 
-nav .nav-wrapper {
+nav .nav-wrapper  {
   background: #513B56;
+  color: #BCE784 !important;
 }
+
+@media screen and (max-width: 2560px) {
+    
+  #mern{
+    background-color: #BCE784;
+    margin-top: -37.8rem;
+    padding-top: 37rem;
+  }
+
+  #grad {
+    background-color: #348AA7;
+    margin-top: -32rem;
+    padding-top: 32rem;
+  }
+
+  #course {
+    margin-top: -31rem;
+    padding-top: 23rem ;
+    background-color: #525174;
+  }
+
+  #thanks {
+    margin-top: -25.5rem;
+    padding-top: 25rem;
+  }
+
+}
+
+@media screen and (max-width: 1628px) {
+
+  #imgContainer {
+    left: 25rem;
+  }
+  
+  #mern{
+    background-color: #BCE784;
+    margin-top: -24rem;
+    padding-top: 26rem;
+  }
+  
+  #grad {
+    background-color: #348AA7;
+    margin-top: -25rem;
+    padding-top: 20rem;
+  }
+  
+  #course {
+    margin-top: -25rem;
+    padding-top: 15rem ;
+    background-color: #525174;
+  }
+  
+  #thanks {
+    margin-top: -25rem;
+    padding-top: 25rem;
+  }
+  
+  }
+
+  @media screen and (max-width: 1440px) {
+
+    #imgContainer {
+      left: 30rem;
+    }
+    
+    #mern{
+      background-color: #BCE784;
+      margin-top: -21.3rem;
+      padding-top: 23rem;
+    }
+    
+    #grad {
+      background-color: #348AA7;
+      margin-top: -22rem;
+      padding-top: 18rem;
+    }
+    
+    #course {
+      margin-top: -22rem;
+      padding-top: 15rem ;
+      background-color: #525174;
+    }
+    
+    #thanks {
+      margin-top: -22rem;
+      padding-top: 22rem;
+    }
+    
+    }
+
+    @media screen and (max-width: 1024px) {
+      
+      #mern{
+        background-color: #BCE784;
+        margin-top: -15.7rem;
+        padding-top: 15rem;
+      }
+      
+      #grad {
+        background-color: #348AA7;
+        margin-top: -15rem;
+        padding-top: 11rem;
+      }
+      
+      #course {
+        margin-top: -17rem;
+        padding-top: 13rem ;
+        background-color: #525174;
+      }
+      
+      #thanks {
+        margin-top: -17rem;
+        padding-top: 17rem;
+      }
+      
+      }
 
 @media screen and (max-width: 768px) {
   #imgContainer {
     right: 0rem;
     left: 24rem;
+  }
+
+  #mern{
+    background-color: #BCE784;
+    margin-top: -12.1rem;
+    padding-top: 10rem;
+  }
+  
+  #grad {
+    background-color: #348AA7;
+    margin-top: -13rem;
+    padding-top: 9rem;
+  }
+  
+  #course {
+    margin-top: -13rem;
+    padding-top: 10rem ;
+    background-color: #525174;
+  }
+  
+  #thanks {
+    margin-top: -12.1rem;
+    padding-top: 17rem;
   }
 }
 
@@ -158,5 +339,28 @@ nav .nav-wrapper {
     right: 0rem;
     left: 5rem;
     top: 1rem;
+  }
+
+  #mern{
+    background-color: #BCE784;
+    margin-top: -6.7rem;
+    padding-top: 10rem;
+  }
+  
+  #grad {
+    background-color: #348AA7;
+    margin-top: -8rem;
+    padding-top: 9rem;
+  }
+  
+  #course {
+    margin-top: -8rem;
+    padding-top: 8rem ;
+    background-color: #525174;
+  }
+  
+  #thanks {
+    margin-top: -8rem;
+    padding-top: 8rem;
   }
 }

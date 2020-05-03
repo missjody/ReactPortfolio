@@ -25,7 +25,7 @@ const Nav = () => {
       <nav>
         <div className="nav-wrapper">
           {/* changed to span from a with an href="#" */}
-          <a href="#" data-target="slide-out" className="js-trigger sidenav-trigger show-on-med"><i className="material-icons">menu</i></a>
+          <a href="#" data-target="slide-out" className="js-trigger sidenav-trigger show-on-med"><i className="material-icons hamburger">menu</i></a>
           <ul className="right hide-on-med-and-down active">
             <li><a href="/home"><h5> Go Back</h5></a></li>
             <li><a href="/projects"><h5>Projects</h5></a></li>

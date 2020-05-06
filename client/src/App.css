@@ -19,6 +19,11 @@ body {
 }
 
 
+/* .child {
+  position: absolute;
+} */
+
+
 
 #mern{
   background-color: #BCE784;
@@ -79,14 +84,15 @@ body {
 #imgContainer {
   position: relative;
   z-index: 0;
-  top: -10rem;
-  left: 30rem;
+  margin-left: 25%
 }
 
 #profileImg {
   border-radius: 2rem;
   height: auto;
   width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hello {
@@ -204,9 +210,10 @@ nav .nav-wrapper  {
 
 @media screen and (max-width: 2560px) {
 
-  #imgContainer {
-    left: 40rem;
-  }
+  /* #imgContainer {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+  } */
     
   #mern{
     background-color: #BCE784;
@@ -262,9 +269,9 @@ nav .nav-wrapper  {
 
 @media screen and (max-width: 1628px) {
 
-  #imgContainer {
+  /* #imgContainer {
     left: 25rem;
-  }
+  } */
   
   #mern{
     background-color: #BCE784;
@@ -293,10 +300,10 @@ nav .nav-wrapper  {
 
   @media screen and (max-width: 1440px) {
 
-    #imgContainer {
+    /* #imgContainer {
       left: 23rem;
       top: -12rem;
-    }
+    } */
     
     #mern{
       background-color: #BCE784;
@@ -324,11 +331,11 @@ nav .nav-wrapper  {
     }
 
     @media screen and (max-width: 1280px) {
-
+/* 
       #imgContainer {
         left: 18rem;
         top: -11rem;
-      }
+      } */
       
       #mern{
         background-color: #BCE784;
@@ -383,10 +390,10 @@ nav .nav-wrapper  {
       }
 
 @media screen and (max-width: 768px) {
-  #imgContainer {
+  /* #imgContainer {
     right: 0rem;
     left: 24rem;
-  }
+  } */
 
   #mern{
     background-color: #BCE784;
@@ -420,11 +427,11 @@ nav .nav-wrapper  {
 
 
 @media screen and (max-width: 425px) {
-  #imgContainer {
+  /* #imgContainer {
     right: 0rem;
     left: 5rem;
     top: 1rem;
-  }
+  } */
 
   #mern{
     background-color: #BCE784;

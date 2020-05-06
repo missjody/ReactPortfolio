@@ -25,17 +25,17 @@ const Nav = () => {
           {/* changed to span from a with an href="#" */}
           <a href="#" data-target="slide-out" className="js-trigger sidenav-trigger show-on-med"><i className="material-icons hamburger">menu</i></a>
           <ul className="right hide-on-med-and-down active">
-            <li><a href="/home"><h5> Go Back</h5></a></li>
-            <li><a href="/projects"><h5>Projects</h5></a></li>
-            <li><a href="/contact"><h5> Reach Out</h5></a></li>
+            <li><a href="/home"><h5> home</h5></a></li>
+            <li><a href="/projects"><h5>projects</h5></a></li>
+            <li><a href="/contact"><h5> reach out</h5></a></li>
           </ul>
         </div>
       </nav>
 
       <ul className="sidenav right" ref={el => slide = el} id="slide-out">
-        <li><a href="/home" onClick={handleClick}><h5> Go Back</h5></a></li>
-        <li><a href="/projects" onClick={handleClick}><h5>Projects</h5></a></li>
-        <li><a href="/contact" onClick={handleClick}><h5> Reach Out</h5></a></li>
+        <li><a href="/home" onClick={handleClick}><h5> home</h5></a></li>
+        <li><a href="/projects" onClick={handleClick}><h5>projects</h5></a></li>
+        <li><a href="/contact" onClick={handleClick}><h5> reach out</h5></a></li>
       </ul>
     </div>
   );

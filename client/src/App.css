@@ -11,8 +11,11 @@ body {
 .wave-container {
   background: #5DD39E;
 }
+
 .wave-container > svg {
   display: block;
+  position: relative;
+  overflow: hidden;
 }
 
 

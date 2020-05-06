@@ -37,9 +37,9 @@ const Home = () => {
 
       <div className="wave-container row" id="mern">
         <div className="col s12 center-align">
-          <h2 id="mernFont">I am a Web Developer with both front-end and
+          <h2 id="mernFont">I am a Web Developer with both <br />front-end and
           back-end experience working with the MERN stack.
-          <br />I also have an extensive background in both <br />
+          <br />I also have an extensive background in both<br />
           customer service and consumer lending.
           </h2>
         </div>
@@ -48,9 +48,9 @@ const Home = () => {
 
       <div className="wave-container row" id="grad">
         <div className="col s12 center-align">
-          <h2 id="gradFont">April 2020 I graduated from the University of Denver’s
+          <h2 id="gradFont">In April 2020 I graduated from the University of Denver’s
           Full Stack program, which covered HTML, CSS, JS, and React.
-          I also learned how to set up databases and servers to connect
+          I also gained experience in setting up databases and servers to connect
           to front-end, including MongoDB, Mongoose, and Express.
           Outside of class I explored additional technologies: Adobe Xd,
           Green Sock animation, Materialize CSS, Sass and ChartJS.
@@ -61,11 +61,10 @@ const Home = () => {
 
       <div className="wave-container row" id="course">
         <div className="col s12 center-align">
-          <h2 id="courseFont">During the course of the program my classmates and I
-          would work on teams of three to four to create a series
-          of projects both together and individually. While we started
-          in a classroom setting we would later move to remote,
-          giving me experience working on teams in both environments.
+          <h2 id="courseFont">Throughout the program I
+          collaborated wtih teams teams and worked individually to create a series
+          of projects.<br />The course was first in the classroom and later remote, <br /> offering a well-rounded experience
+          in both collaboration types.
         </h2>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#525174" fill-opacity="1" d="M0,288L48,282.7C96,277,192,267,288,229.3C384,192,480,128,576,122.7C672,117,768,171,864,186.7C960,203,1056,181,1152,192C1248,203,1344,245,1392,266.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
@@ -74,9 +73,9 @@ const Home = () => {
       <div className="wave-container row" id="thanks">
         <div className="col s12 center-align">
           <h2 id="thanksFont">
-            Thank you for taking the time to check out my portfolio.
-            I've included some of my favorite projects as well as links
-            to my resume and how to contact me.
+            Thank you for taking the time to explore my portfolio.<br />
+            I've included some of my favorite projects as well as my
+            contact information and links to my resume.
             I look forward to hearing from you soon!
          </h2>
         </div>
